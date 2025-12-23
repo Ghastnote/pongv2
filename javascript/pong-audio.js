@@ -54,7 +54,7 @@ soundArray.push(scoreSound);
 
 export var ambientSound = new soundFile("Gyroscope.mp3");
 soundArray.push(ambientSound);
-ambientSound.player.loop = false; //turn on looping
+ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -5; //turn down volume
 
 export var adventureMusic = new soundFile("silence.mp3");
