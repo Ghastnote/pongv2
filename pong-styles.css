@@ -3,10 +3,13 @@ Some properties like position and size get set by the game
 Feel free to play with things like color or font
 */
 
+
+
 html,
 body {
   padding: 0;
   margin: 0;
+  background-color: black;
 }
 #game {
   margin: 4px;
@@ -15,7 +18,6 @@ body {
   position: absolute;
   background-image: url("warehouse.jpg");
   background-size: cover;
-  background-color: black;
 }
 
 #left-paddle {
