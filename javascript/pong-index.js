@@ -9,8 +9,6 @@ RUNNING PROCESSES - things that will run every frame
 //Import Code From Other JS Modules
 //Sound functions and classes
 
-  background: black;
-
 import {
   wallSound,
   paddleSound,
