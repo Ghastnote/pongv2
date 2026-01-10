@@ -258,7 +258,7 @@ function ballReset() {
 
 //Constrain Ball Speed to Maximums
 function ballCheckMax() {
-    const speedUp = 5; // 5% speed increase per frame
+    const speedUp = 20; // 5% speed increase per frame
   ball.direction.x = clamp(
     ball.direction.x,
     -1 * ball.maximum.x,
