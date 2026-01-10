@@ -12,12 +12,15 @@ body {
   background-color: black;
 }
 #game {
-  margin: 4px;
+position: absolute;      /* keep absolute positioning */
+  top: 50%;                /* move top edge to 50% of screen */
+  left: 50%;               /* move left edge to 50% of screen */
+  transform: translate(-50%, -50%); /* shift back by half width/height to center */
+  margin: 0;               /* remove previous margin */
   border: 5px solid black;
-  center: 0;
-  position: absolute;
   background-image: url("warehouse.jpg");
   background-size: cover;
+}
 }
 
 #left-paddle {
