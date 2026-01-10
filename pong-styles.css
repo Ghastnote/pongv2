@@ -21,7 +21,6 @@ position: absolute;      /* keep absolute positioning */
   background-image: url("warehouse.jpg");
   background-size: cover;
 }
-}
 
 #left-paddle {
   background-color: grey;
