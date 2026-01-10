@@ -5,7 +5,6 @@ STARTUP EVENTS - things that will run once when the game starts
 RUNNING PROCESSES - things that will run every frame
 */
 
-this.initial = { x: 10, y: 10 };
 
 //Import Code From Other JS Modules
 //Sound functions and classes
@@ -261,7 +260,7 @@ function ballReset() {
 function ballCheckMax() {
   ball.direction.x = clamp(
     ball.direction.x,
-    -1 * ball.maximum.x,
+    2 * ball.maximum.x,
     ball.maximum.x
   );
   ball.direction.y = clamp(
@@ -356,7 +355,7 @@ function controlUpdate() {
     //N
     if (value === 78 && volumeUpControl.changedManual === false) {
       volumeUpControl.changedManual = true; //volumeup state is changed
-      setVolume(game.volume + 1);
+      setVolume(game.volume + 8);
       volumeDisplay.innerHTML = game.volume;
     }
     //Volume Down
