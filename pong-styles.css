@@ -15,6 +15,7 @@ body {
   position: absolute;
   background-image: url("warehouse.jpg");
   background-size: cover;
+  background-color: black;
 }
 
 #left-paddle {
