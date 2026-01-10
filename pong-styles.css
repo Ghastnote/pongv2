@@ -14,7 +14,7 @@ body {
 #game {
   margin: 4px;
   border: 5px solid black;
-  left: 0;
+  center: 0;
   position: absolute;
   background-image: url("warehouse.jpg");
   background-size: cover;
