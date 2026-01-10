@@ -5,7 +5,7 @@ STARTUP EVENTS - things that will run once when the game starts
 RUNNING PROCESSES - things that will run every frame
 */
 
-this.initial = { x: 5, y: 5 };
+this.initial = { x: 10, y: 10 };
 
 //Import Code From Other JS Modules
 //Sound functions and classes
